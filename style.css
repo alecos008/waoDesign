@@ -17,7 +17,7 @@ ul {
 }
 #hero-section {
     width: 99vw;
-    height: 90vh;
+    height: 100vh;
     background-image: url('/images/Polygon\ 1.svg');
     background-repeat: no-repeat;
     background-position: right top;
@@ -41,7 +41,6 @@ ul {
 }
 .section-text {
     padding: 2.5vh 0 0 8vw;
-    width: 50vw;
     height: 50vh;
     color: white;
     display: flex;
