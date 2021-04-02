@@ -18,7 +18,7 @@ ul {
 #hero-section {
     width: 99vw;
     height: 90vh;
-    background-image: url('/images/Polygon\ 1.svg');
+    background-image: url('https://github.com/alecos008/waoDesign/blob/85cc04f6844925b55a4a6e71a1711aba61fa1cc0/images/Polygon%201.svg');
     background-repeat: no-repeat;
     background-position: right top;
     display: flex;
