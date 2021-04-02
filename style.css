@@ -21,7 +21,7 @@ ul {
     background-image: url('/Polygon\ 1.svg');
     background-repeat: no-repeat;
     background-position: right top;
-   
+    display: flex;
 }
 #nav-bar {
     height: 10vh;
@@ -89,6 +89,11 @@ a:hover {
     column-gap: 10vw;
     align-items: center;
     height: 10vh;
+}
+.figure1 {
+    position: relative center right;
+    padding-left: 20vw;
+    
 }
 
 
