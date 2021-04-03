@@ -16,7 +16,7 @@ ul {
     list-style: none;
 }
 #hero-section {
-    width: 99vw;
+    width: 98.4vw;
     height: 100vh;
     background-image: url('/images/Polygon\ 1.svg');
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@ ul {
    border: 2px solid rgba(58, 188, 71, 0.9);
    border-radius: 10px;
 }
-a:hover {
+.nav-bar-ul a:hover {
     color: black;
 }
 .btn-link:hover {
@@ -70,30 +70,32 @@ a:hover {
     border: 2px solid black;
 }
 
+.figure1 {
+    padding: 12vh 0 0 10vw;
+}
 .footer {
+    height: 20vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    column-gap: 5vw;
-    position: fixed;
     font-size: 2.4em;
-    padding-left: 4vw;
-    width: 100vw;
-    align-content: center;
+    padding-left: 7vw;
+    column-gap: 7vw;
+    background-color: black;
 }
 .footer-icons {
-    padding-left: 50vw;
     display: flex;
     flex-direction: row;
-    column-gap: 10vw;
-    align-items: center;
-    height: 10vh;
+    column-gap: 7vw;
+    padding-left: 40vw;
 }
-.figure1 {
-    position: relative center right;
-    padding-left: 20vw;
-    
+
+.footer-link:hover {
+   transform: scale(1.15);
+   color: white;
 }
+
+
 
 
     
