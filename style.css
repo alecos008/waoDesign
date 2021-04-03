@@ -4,7 +4,7 @@ body, html {
     font-family: 'Poppins';
 }
 h1{
-    font-size: 8.8em;
+    font-size: 8.5em;
     font-weight: 600;
 }
 a {
@@ -25,17 +25,19 @@ ul {
 }
 #nav-bar {
     height: 10vh;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     align-content: center;
-    padding: 0vh 0 0 4vw;
+    padding: 0 0 0 4vw;
     position: fixed;
+    background-color: rgba(92, 82, 102, 1);
 }
 .nav-bar-ul {
     display: flex;
     flex-direction: row;
     column-gap: 5vw;
-    padding-left: 30vw;
+    padding-left: 25vw;
     
     font-size: 2.4em; 
 }
@@ -49,6 +51,7 @@ ul {
 }
 .section-text > p {
     font-size: 2.5em;
+    width: 500px;
 }
 
 .btn-link {
