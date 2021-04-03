@@ -3,9 +3,12 @@ body, html {
     font-size: 10px;
     font-family: 'Poppins';
 }
-h1{
-    font-size: 8.5em;
+h2{
+    font-size: 8em;
     font-weight: 600;
+}
+.logo {
+    padding-top: 3px;
 }
 a {
     text-decoration: none;
@@ -32,6 +35,7 @@ ul {
     padding: 0 0 0 4vw;
     position: fixed;
     background-color: rgba(92, 82, 102, 1);
+    margin-top: -8px;
 }
 .nav-bar-ul {
     display: flex;
@@ -43,15 +47,18 @@ ul {
 }
 .section-text {
     padding: 2.5vh 0 0 8vw;
-    height: 50vh;
+    max-height: 80vh;
     color: white;
     display: flex;
     flex-direction: column;
-    row-gap: 2px;    
 }
 .section-text > p {
     font-size: 2.5em;
-    width: 500px;
+    width: 550px;
+}
+.section-text > h2 {
+    width: 600px;
+    padding-top: 50px;
 }
 
 .btn-link {
@@ -71,10 +78,11 @@ ul {
 .btn-link:hover {
     background-color: rgba(58, 188, 71, 0.9);
     border: 2px solid black;
+    color: black;
 }
 
 .figure1 {
-    padding: 12vh 0 0 10vw;
+    padding: 12vh 0 0 20vw;
 }
 .footer {
     height: 20vh;
@@ -85,6 +93,7 @@ ul {
     padding-left: 7vw;
     column-gap: 7vw;
     background-color: black;
+    margin: 0 -5px -5px -5px;
 }
 .footer-icons {
     display: flex;
