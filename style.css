@@ -35,6 +35,9 @@ ul {
     background-image: url('/images/Polygon\ 1.svg');
     background-repeat: no-repeat;
     background-position: right top;
+    width: 98.4vw;
+    height: 100vh;
+    display: flex;
 }
 #nav-bar {
     height: 10vh;
