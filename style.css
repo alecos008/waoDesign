@@ -152,7 +152,11 @@ ul {
     width: 64px;
     margin: 20px auto;
 }
-
+#company-hero-section {
+    background-image: url('/images/Polygon\ 1.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
 
 
 
