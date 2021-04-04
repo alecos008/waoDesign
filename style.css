@@ -6,6 +6,13 @@ body, html {
 h2{
     font-size: 8em;
     font-weight: 600;
+    color: white;
+}
+h4 {
+    font-size: 3.5em;
+}
+.green-heading{
+    color: rgba(58, 188, 71, 0.9);
 }
 .logo {
     padding-top: 3px;
@@ -18,13 +25,16 @@ a {
 ul {
     list-style: none;
 }
-#hero-section {
+.container {
     width: 98.4vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#index-hero-section {
     background-image: url('/images/Polygon\ 1.svg');
     background-repeat: no-repeat;
     background-position: right top;
-    display: flex;
 }
 #nav-bar {
     height: 10vh;
@@ -55,6 +65,7 @@ ul {
 .section-text > p {
     font-size: 2.5em;
     width: 550px;
+    margin-top: -50px;
 }
 .section-text > h2 {
     width: 600px;
@@ -71,6 +82,7 @@ ul {
    font-size: 2.5em;
    border: 2px solid rgba(58, 188, 71, 0.9);
    border-radius: 10px;
+   margin-top: 20px;
 }
 .nav-bar-ul a:hover {
     color: black;
@@ -106,6 +118,38 @@ ul {
    transform: scale(1.15);
    color: white;
 }
+#company-hero-section > .section-text {
+    padding-left: 10vw;
+}
+#our-solutions-section > h2 {
+    margin: 10vh auto;
+}
+.boxes {
+    width: 80vw;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('/images/Rectangle\ 6.png');
+    color: white;
+}
+.box p {
+    font-size: 2em;
+    width: 300px;
+    text-align: justify;
+    margin: 0 5px 0 5px;
+}
+.box-img {
+    width: 64px;
+    margin: 20px auto;
+}
+
 
 
 
