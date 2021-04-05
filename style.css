@@ -83,17 +83,16 @@ ul {
    background-color: rgba(92, 82, 102, 1);
    font-weight: 600;
    font-size: 2.5em;
-   border: 2px solid rgba(58, 188, 71, 0.9);
+   border: 2px solid rgba(58, 188, 71, 0.5);
    border-radius: 10px;
    margin-top: 20px;
 }
 .nav-bar-ul a:hover {
-    color: black;
+    color:white;
 }
 .btn-link:hover {
-    background-color: rgba(58, 188, 71, 0.9);
-    border: 2px solid black;
-    color: black;
+    border: 3px solid rgba(58, 188, 71, 0.8);
+   
 }
 
 .figure1 {
@@ -157,6 +156,8 @@ ul {
     background-repeat: no-repeat;
     background-position: top right;
 }
+
+
 
 
 
