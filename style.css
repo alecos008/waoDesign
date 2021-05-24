@@ -138,24 +138,28 @@ ul {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-image: url('/images/Rectangle\ 6.png');
+    background: linear-gradient(180deg, #3ABC47 0%, #5C5266 100%);
     color: white;
+    width: 20vw;
 }
 .box p {
     font-size: 2em;
     width: 300px;
     text-align: justify;
-    margin: 0 5px 0 5px;
+    margin: 0 auto;
 }
 .box-img {
     width: 64px;
     margin: 20px auto;
+    align-items: center;
 }
 #company-hero-section {
     background-image: url('/images/Polygon\ 1.svg');
     background-repeat: no-repeat;
     background-position: top right;
 }
+
+
 
 
 
