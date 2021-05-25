@@ -144,7 +144,8 @@ ul {
 }
 .box p {
     font-size: 2em;
-    width: 300px;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
     text-align: justify;
     margin: 0 auto;
 }

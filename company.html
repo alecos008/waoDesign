@@ -11,12 +11,6 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/8a46b3ce85.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/scrollreveal">
-    ScrollReveal({ reset: true });
-        ScrollReveal().reveal('.container', {delay : 500,
-        duration : 500,
-    reset : true});
-    </script>
     <title>Company page</title>
 </head>
 
@@ -52,10 +46,12 @@
                 <p>Rank higher in Search Consoles with our Optimization and Content Tactics.</p>
             </article>
             
-            <article onmouseover="mOver(this)" onmouseout="mOut(this)" class="box">
+            <article id="socialMediaBox" class="box">
+                <div onmouseover="mOver(this)" onmouseout="mOut(this)" id="articleCover">
                 <img id="socialMediaLogo" class="box-img" src="/images/icons8-agree-96 1.svg" alt="SMM icon">
-                <h4>Social Media <br> Management</h4>
-                <p id="socialMediaText"></p>
+                <h4 id="socialMediaHeading">Social Media <br> Management</h4>
+            </div>
+                <p hidden id="socialMediaText">Full Grid structure, Content for your posts and a one-month Publishing Schedule</p>
             </article>
     
         </div>
